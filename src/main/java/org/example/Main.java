@@ -11,8 +11,8 @@ public class Main {
 
         System.out.println("I'm thinking of a number between 1 and 5.");
 
-        for (int i = 0; i < attempts; i++) {
-            System.out.print("Guess: ");
+        for (int i = 1; i < attempts + 1; i++) {
+            System.out.print("Guess " + i + ": ");
             int guess = input.nextInt();
 
             if (guess == number) {
